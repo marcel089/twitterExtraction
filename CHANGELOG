@@ -1,0 +1,59 @@
+Version 0.01 @ 19.11.2016 (mk@mkarrasch.de)
+- Extract Tweet
+- Sent Tweet to dandelion API
+
+Version 0.02 @ 26.11.2016 (mk@mkarrasch.de)
+- General Update
+- Extract Hastags
+- API Interface
+- Response JSON
+
+Version 0.03 @ 27.11.2016 (mk@mkarrasch.de)
+- Refactor
+- Implemented Alchemy API
+- Create Logger File
+- Sort Response Entites with Comparator
+- Check before adding Entities if they have been added so far
+
+Version 0.04 @ 10.12.2016 (mk@mkarrasch.de)
+- Implemented meaningCloud API
+- Created class API Basics
+    - All API Classes extends this class
+
+Version 0.05 @ 12.12.2016 (mk@mkarrasch.de)
+- Small Counting Bug (Counting Hastags)
+
+Version 0.05 @ 12.12.2016 (mk@mkarrasch.de)
+- Implemented properties File
+
+Version 0.06 @ 29.12.2016 (mk@mkarrasch.de)
+- Rerfactoring
+
+Version 0.07 @ 29.12.2016 (mk@mkarrasch.de)
+- Added Rating within APIBasics
+- Generalized addEntity within APIBasic
+
+Version 0.08 @ 29.12.2016 (mk@mkarrasch.de)
+- Added Top 10 Tweets
+- Added log4j2
+- Several String changes
+   - Capitalize first letter of hashtag and entity
+   - Handle only entity which are not an url or email
+   - Handle only entity which don't have more than 2 spaces
+
+Version 0.10 @ 07.02.2017 (mk@mkarrasch.de)
+- Refactoring
+
+Version 0.11 @ 07.02.2017 (mk@mkarrasch.de)
+- Seperate twitterExtraction and twitterTopTweets
+- Different Log Files
+
+Version 0.12 @ 16.02.2017 (mk@mkarrasch.de)
+- Identify top Hashtags and those Hashtags which are connected to them
+- Several comments
+
+Version 0.13 @ 16.02.2017 (mk@mkarrasch.de)
+- Minor improvements
+
+Version 0.14 @ 19.02.2017 (mk@mkarrasch.de)
+- Bug in API Meaning Cloud fixed
