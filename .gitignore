@@ -1,4 +1,6 @@
 .idea/
+.input/
+.logs/
 
 *.class
 
